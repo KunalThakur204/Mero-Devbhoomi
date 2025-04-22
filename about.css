@@ -1,0 +1,105 @@
+/* personal-style.css for Mero-Devbhoomi */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  body {
+    background-color: #fff;
+    color: #222;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.15)), url('images/marish-sharma-mnTW-1NNWJM-unsplash.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+  .logo img.large-logo {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    position: relative;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s;
+  }
+  
+  .menu a:hover {
+    color: #00b894;
+  }
+  
+  .menu a::after {
+    content: '';
+    display: block;
+    height: 2px;
+    background: #00b894;
+    transition: width 0.3s;
+    width: 0;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+  }
+  
+  .menu a:hover::after {
+    width: 100%;
+  }
+  
+  .about-banner {
+    padding: 100px 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .about-banner h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  .about-banner p {
+    font-size: 20px;
+  }
+  
+  .about-main {
+    padding: 60px 40px;
+    background-color: #f9f9f9;
+  }
+  
+  .about-main h2 {
+    color: #00b894;
+    margin-top: 30px;
+  }
+  
+  .about-main ul {
+    margin: 20px 0 0 20px;
+  }
+  
+  footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
